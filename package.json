@@ -1,10 +1,10 @@
 {
-  "name": "suneditor-react",
-  "version": "3.4.1",
+  "name": "chandras-suneditor-react",
+  "version": "1.0.0",
   "description": "A React Component for Suneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mkhstar/suneditor-react"
+    "url": "https://github.com/chandra-devs/suneditor-react"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -20,23 +20,25 @@
     "word",
     "react"
   ],
-  "author": "Kusi Musah Hussein",
+  "author": "Kishore Chandra",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.9.0",
     "react-dom": ">= 16.9.0",
-    "suneditor": "^2.42.0"
+    "suneditor": "^2.44.3"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "react": "^18.2.0",
-    "suneditor": "^2.42.0",
     "typescript": "^4.2.4"
   },
   "browserslist": [
     ">0.2%",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "suneditor": "^2.44.3"
+  }
 }
